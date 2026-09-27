@@ -31,6 +31,10 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.5.2</version>
+        <configuration>
+          <!-- Roda em pt-BR (vírgula decimal) para pegar soluções que dependem do idioma da máquina. -->
+          <argLine>-Duser.language=pt -Duser.country=BR</argLine>
+        </configuration>
       </plugin>
     </plugins>
   </build>

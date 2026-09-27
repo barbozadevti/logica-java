@@ -12,6 +12,7 @@ Cada solução é conferida por um **juiz local automatizado** (JUnit 5): o test
 |---|----------|-----------|-----------|---------|-------|
 | 1 | Produto de dois inteiros (`PROD = X`) | Matemática | leitura com `Scanner`, operadores aritméticos, concatenação | [Produto.java](src/main/java/dev/barboza/logica/matematica/Produto.java) | [4 casos](src/test/resources/casos/dev.barboza.logica.matematica.Produto) |
 | 2 | Soma de dois inteiros (`SOMA = X`) | Matemática | leitura com `Scanner`, operadores aritméticos, concatenação | [Soma.java](src/main/java/dev/barboza/logica/matematica/Soma.java) | [5 casos](src/test/resources/casos/dev.barboza.logica.matematica.Soma) |
+| 3 | Média ponderada de duas notas (`MEDIA = X.XXXXX`) | Matemática | `double`, média ponderada, formatação com `String.format`, `Locale` | [MediaPonderada.java](src/main/java/dev/barboza/logica/matematica/MediaPonderada.java) | [6 casos](src/test/resources/casos/dev.barboza.logica.matematica.MediaPonderada) |
 
 ## Como rodar
 
