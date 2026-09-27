@@ -11,6 +11,7 @@ Cada solução é conferida por um **juiz local automatizado** (JUnit 5): o test
 | # | Problema | Categoria | Conceitos | Solução | Casos |
 |---|----------|-----------|-----------|---------|-------|
 | 1 | Produto de dois inteiros (`PROD = X`) | Matemática | leitura com `Scanner`, operadores aritméticos, concatenação | [Produto.java](src/main/java/dev/barboza/logica/matematica/Produto.java) | [4 casos](src/test/resources/casos/dev.barboza.logica.matematica.Produto) |
+| 2 | Soma de dois inteiros (`SOMA = X`) | Matemática | leitura com `Scanner`, operadores aritméticos, concatenação | [Soma.java](src/main/java/dev/barboza/logica/matematica/Soma.java) | [5 casos](src/test/resources/casos/dev.barboza.logica.matematica.Soma) |
 
 ## Como rodar
 
