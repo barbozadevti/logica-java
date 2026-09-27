@@ -14,6 +14,7 @@ Cada solução é conferida por um **juiz local automatizado** (JUnit 5): o test
 | 2 | Soma de dois inteiros (`SOMA = X`) | Matemática | leitura com `Scanner`, operadores aritméticos, concatenação | [Soma.java](src/main/java/dev/barboza/logica/matematica/Soma.java) | [5 casos](src/test/resources/casos/dev.barboza.logica.matematica.Soma) |
 | 3 | Média ponderada de duas notas (`MEDIA = X.XXXXX`) | Matemática | `double`, média ponderada, formatação com `String.format`, `Locale` | [MediaPonderada.java](src/main/java/dev/barboza/logica/matematica/MediaPonderada.java) | [6 casos](src/test/resources/casos/dev.barboza.logica.matematica.MediaPonderada) |
 | 4 | Pedra, Papel, Ataque Aéreo (N partidas) | Condicionais | `switch` expression, regras de vitória, leitura de N casos, `StringBuilder` | [PedraPapelAtaqueAereo.java](src/main/java/dev/barboza/logica/condicionais/PedraPapelAtaqueAereo.java) | [3 casos (11 partidas)](src/test/resources/casos/dev.barboza.logica.condicionais.PedraPapelAtaqueAereo) |
+| 5 | Pulando nomes (3º, 7º e 9º de 10) | Entrada e saída | vetor (`String[]`), índices começando em 0, leitura com `next()` | [PulandoNomes.java](src/main/java/dev/barboza/logica/entrada/PulandoNomes.java) | [3 casos](src/test/resources/casos/dev.barboza.logica.entrada.PulandoNomes) |
 
 ## Como rodar
 
